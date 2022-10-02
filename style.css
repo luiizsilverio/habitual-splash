@@ -15,8 +15,16 @@ body {
 .wrapper {
   position: relative;
   width: 1440px;
-  min-height: 100vh;
+  height: 1379px;
   margin: auto;
+}
+
+.brand-img {
+  position: absolute;
+  width: 193px;
+  height: 47.64px;
+  left: 221px;
+  top: 50.25px;
 }
 
 .title {
@@ -45,4 +53,123 @@ body {
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
+}
+
+.app-store-btn {
+  position: absolute;
+  width: 138.44px;
+  height: 46.28px;
+  left: 221px;
+  top: 531px;
+}
+
+.app-store-btn img {
+  width: 138.44px;
+  height: 46.28px;
+}
+
+.google-play-btn {
+  position: absolute;
+  width: 156.19px;
+  height: 46.28px;
+  left: 381.81px;
+  top: 531px;
+}
+
+.google-play-btn img {
+  width: 156.19px;
+  height: 46.28px;
+}
+
+.main-image-container {
+  position: absolute;
+  width: 535.72px;
+  height: 309.27px;
+  left: 683.28px;
+  top: 229.73px;
+}
+
+.main-image-container img {
+  height: 411.15px;
+}
+
+.cart-img {
+  position: absolute;
+  height: 222px;
+  left: 221px;
+  right: 995px;
+  top: 1157px;
+}
+
+.home-img {
+  position: absolute;
+  height: 470px;
+  left: 995px;
+  right: 221px;
+  top: 908px;
+}
+
+.profile-img {
+  position: absolute;
+  height: 444px;
+  left: 737px;
+  right: 479px;
+  top: 686px;
+}
+
+.product-img {
+  position: absolute;
+  height: 222px;
+  left: 737px;
+  right: 479px;
+  top: 1157px;
+}
+
+.orders-img {
+  position: absolute;
+  height: 470px;
+  left: 479px;
+  right: 737px;
+  top: 913px;
+}
+
+/* Background Toggles */
+.background-toggles {
+  position: absolute;
+  right: 150px;
+  top: 70px;
+  display: flex;
+}
+
+.background-toggles > div {
+  height: 25px;
+  width: 25px;
+  border-radius: 5px;
+  margin-right: 10px;
+  box-shadow: 0 2px 5px 2px rgba(0, 0, 0, .2);
+  cursor: pointer;
+}
+
+/* background copiado do site Hero Patterns */
+.background-1 {
+  background-color: #f0eff1;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='88' height='24' viewBox='0 0 88 24'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='autumn' fill='%23dbd2ea' fill-opacity='0.4'%3E%3Cpath d='M10 0l30 15 2 1V2.18A10 10 0 0 0 41.76 0H39.7a8 8 0 0 1 .3 2.18v10.58L14.47 0H10zm31.76 24a10 10 0 0 0-5.29-6.76L4 1 2 0v13.82a10 10 0 0 0 5.53 8.94L10 24h4.47l-6.05-3.02A8 8 0 0 1 4 13.82V3.24l31.58 15.78A8 8 0 0 1 39.7 24h2.06zM78 24l2.47-1.24A10 10 0 0 0 86 13.82V0l-2 1-32.47 16.24A10 10 0 0 0 46.24 24h2.06a8 8 0 0 1 4.12-4.98L84 3.24v10.58a8 8 0 0 1-4.42 7.16L73.53 24H78zm0-24L48 15l-2 1V2.18A10 10 0 0 1 46.24 0h2.06a8 8 0 0 0-.3 2.18v10.58L73.53 0H78z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* gradientes obtidos do site uiGradients */
+.background-2 {
+  background: #FFEFBA;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.background-3 {
+  background: #DAE2F8;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #D6A4A4, #DAE2F8);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #D6A4A4, #DAE2F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.background-4 {
+  background-color: #e9e7ec;
+  background-image: url("data:image/svg+xml,%3Csvg width='48' height='32' viewBox='0 0 48 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23c0e2bb' fill-opacity='0.4'%3E%3Cpath d='M27 32c0-3.314 2.686-6 6-6 5.523 0 10-4.477 10-10S38.523 6 33 6c-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 6.627 0 12 5.373 12 12s-5.373 12-12 12c-2.21 0-4 1.79-4 4h-2zm-6 0c0-3.314-2.686-6-6-6-5.523 0-10-4.477-10-10S9.477 6 15 6c3.314 0 6-2.686 6-6h-2c0 2.21-1.79 4-4 4C8.373 4 3 9.373 3 16s5.373 12 12 12c2.21 0 4 1.79 4 4h2z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
