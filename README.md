@@ -1,6 +1,7 @@
 # HABITUAL SPLASH SCREEN
 
-Tela de Splash desenvolvida em HTML + CSS + Javascript, durante o curso [JavaScript Web Projects: 20 Projects to Build Your Portfolio](https://www.udemy.com/course/javascript-web-projects-to-build-your-portfolio-resume).<br/>
+Tela de Splash desenvolvida em HTML + CSS + Javascript, com botões que permitem mudar a aparência da tela.<br/>
+Desenvolvida durante o curso [JavaScript Web Projects: 20 Projects to Build Your Portfolio](https://www.udemy.com/course/javascript-web-projects-to-build-your-portfolio-resume).<br/>
 
 Acesse a aplicação [aqui](https://luiizsilverio.github.io/habitual-splash/).
 
